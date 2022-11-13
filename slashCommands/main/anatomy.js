@@ -3,7 +3,7 @@ const buttonPages = require("../../functions/pagination");
 
 module.exports = {
   name: "anatomy",
-  aliases: ['anatomi'],
+  description: "Anatomy is important, c'mon guys",
   
   run: async (client, interaction) => {
     
