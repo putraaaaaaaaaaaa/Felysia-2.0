@@ -21,7 +21,7 @@ class Bot extends Client {
                 status: "online",
                 activities: [
                     {
-                        name: "Version " + require("../package.json").version,
+                        name: "Artist Drawing",
                         type: ActivityType.Watching,
                     },
                 ],
