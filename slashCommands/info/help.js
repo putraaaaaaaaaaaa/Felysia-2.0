@@ -1,7 +1,4 @@
-const {EmbedBuilder,
-  MessageButton,
-  MessageActionRow,
-  MessageSelectMenu,
+const {EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle, Events
 } = require("discord.js");
 
 module.exports = {
@@ -38,16 +35,11 @@ module.exports = {
   })
       .setColor("FE00FF");
 
-    const row = new MessageActionRow().addComponents(
-      new MessageButton()
-        .setURL(`https://www.paypal.com/paypalme/sptra22`)
-        .setStyle("LINK")
+    const row = new ActionRowBuilder().addComponents(
+      new ButtonBuilder()
+        .url(`https://www.paypal.com/paypalme/sptra22`)
+        .setStyle(ButtonStyle.Link)
         .setLabel("Support Me"),
-
-      new MessageButton()
-        .setStyle("LINK")
-        .setLabel("Submit Reference")
-        .setURL(`https://forms.gle/m7xSvrwgVWXzZ75J9`)
     );
 
     await interaction.reply({ embeds: [embed], components: [row] });
