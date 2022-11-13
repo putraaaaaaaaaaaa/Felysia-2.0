@@ -9,10 +9,10 @@ module.exports = {
   description: "Learn Felysia",
 
   run: async (client, interaction) => {
-    const embed = new MessageEmbed()
+    const embed = new EmbedBuilder()
     
       .setAuthor({
-        text: `${client.user.username} Help Menu`,
+        name: `${client.user.username} Help Menu`,
         iconURL: interaction.user.displayAvatarURL({ dynamic: true })
       })
       
@@ -29,7 +29,7 @@ module.exports = {
             "Anatomy\nBoy\nClothes\nColouring\nEyes\nGirl\nGrass\nLineart\nMood\nMouth\nNose\nPose\nPov\nRock\nShadow\n",
         }
       )
-      .setDescription("Note: Please do slowly when you switch between image to avoid rate limited API request")
+      
       
       
       .setFooter({
