@@ -31,7 +31,7 @@ module.exports = {
       
       .setFooter({
     text: `How to use? just type /`,
-    iconURL: interaction.user.displayAvatarURL(),
+    iconURL: 'https://cdn3.emoji.gg/emojis/3924-question.gif',
   })
       .setColor("FE00FF");
 
