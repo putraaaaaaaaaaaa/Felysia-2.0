@@ -14,9 +14,9 @@ module.exports = {
     const embed = new EmbedBuilder()
       .setAuthor(
         `${client.user.username} Help Menu`,
-        message.author.displayAvatarURL({ dynamic: true })
+        interaction.author.displayAvatarURL({ dynamic: true })
       )
-      .setURL(message.author.displayAvatarURL({ dynamic: true }))
+      .setURL(interaction.author.displayAvatarURL({ dynamic: true }))
       .addFields(
       {
         name: `About Me`,
@@ -26,8 +26,7 @@ module.exports = {
         name: "Reference List",
         value: "Anatomy\nBoy\nClothes\nColouring\nEyes\nGirl\nGrass\nLineart\nMood\nMouth\nNose\nPose\nPov\nShadow\n",
       })
-      .setDescription("Note: Please do slowly when you switch between image to avoid rate limited API request")
-      .setFooter("how to use? f!(theme), example: f!pose")
+      .setFooter("how to use? just type /")
       .setColor("FE00FF");
 
     const row = new MessageActionRow().addComponents(
