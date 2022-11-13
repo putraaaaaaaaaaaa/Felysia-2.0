@@ -13,10 +13,7 @@ module.exports = {
 
     const embed = new EmbedBuilder()
       .setAuthor(
-        `${client.user.username} Help Menu`,
-        interaction.author.displayAvatarURL({ dynamic: true })
-      )
-      .setURL(interaction.author.displayAvatarURL({ dynamic: true }))
+        `${client.user.username} Help Menu`)
       .addFields(
       {
         name: `About Me`,
