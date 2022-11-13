@@ -12,12 +12,12 @@ module.exports = {
   run: async (client, interaction) => {
 
     const embed = new EmbedBuilder()
-      .setAuthor(
-        `${client.user.username} Help Menu`)
+      .setTitle(
+        "Felysia Help Menu")
       .addFields(
       {
-        name: `About Me`,
-        value: `${client.user.username} is a program to make it easier for Digital Artists to find references. I'm gona generate reference you want, the embed will stay for 3, minutes`,
+        name: "About Me",
+        value: "$Felysia is a program to make it easier for Digital Artists to find references. I'm gona generate reference you want, the embed will stay for 3, minutes",
       },
       {
         name: "Reference List",
