@@ -37,7 +37,7 @@ module.exports = {
 
     const row = new ActionRowBuilder().addComponents(
       new ButtonBuilder()
-        .url(`https://www.paypal.com/paypalme/sptra22`)
+        .setURL(`https://www.paypal.com/paypalme/sptra22`)
         .setStyle(ButtonStyle.Link)
         .setLabel("Support Me"),
     );
