@@ -2,8 +2,8 @@ const { EmbedBuilder } = require("discord.js");
 const buttonPages = require("../../functions/pagination");
 
 module.exports = {
-  name: "anatomy",
-  description: "Anatomy is important, c'mon guys",
+  name: "mood",
+  description: "make u image more emotional",
 
   run: async (client, interaction) => {
 
