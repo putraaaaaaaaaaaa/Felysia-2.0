@@ -9,15 +9,15 @@ module.exports = {
 
 
     const embed1 = new EmbedBuilder()
-      .setTitle('Head')
+      .setTitle('Page1')
       //.setImage('https://imgur.com/9EDYw8D.png')
       
       const embed2 = new EmbedBuilder()
-      .setTitle('He$$ad')
+      .setTitle('Page2')
       //.setImage('https://imgur.com/9EDYw8D.png')
       
       const embed3 = new EmbedBuilder()
-      .setTitle('He@@d')
+      .setTitle('Page3')
       //.setImage('https://imgur.com/9EDYw8D.png')
 
     const pages = [
@@ -27,14 +27,12 @@ module.exports = {
 
     await pagination({
     interaction: interaction,
-    embeds: pages, // Array of embeds objects
+    embeds: pages, 
     author: interaction.member.user,
-    time: 180000, // 40 seconds
-    fastSkip: false,
+    time: 180000, 
     disableButtons: true,
     pageTravel: true,
-    ephemeral: false,
-    /** Enable buttons pagination system only for member with ID: 123456789 */
+    
     customFilter: (interaction) => {
         return interaction.member.user.id === '765911201296416829';
     },
@@ -49,7 +47,7 @@ module.exports = {
             value: TypesButtons.next,
             label: 'Next Image',
             style: StylesButton.Success,
-            emoji: null // Disable emoji for this button
+            emoji: null 
         }
     ]
 });
