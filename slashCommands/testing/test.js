@@ -10,9 +10,9 @@ module.exports = {
 
     const embed1 = new EmbedBuilder()
       .setTitle('Head')
-      .setImage('https://imgur.com/9EDYw8D.png')
+      //.setImage('https://imgur.com/9EDYw8D.png')
       
-      //const embed2 = new EmbedBuilder()
+      const embed2 = new EmbedBuilder()
       .setTitle('He$$ad')
       //.setImage('https://imgur.com/9EDYw8D.png')
       
