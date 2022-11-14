@@ -12,13 +12,13 @@ module.exports = {
       .setTitle('Head')
       .setImage('https://imgur.com/9EDYw8D.png')
       
-      const embed2 = new EmbedBuilder()
-      .setTitle('Head')
-      .setImage('https://imgur.com/9EDYw8D.png')
+      //const embed2 = new EmbedBuilder()
+      .setTitle('He$$ad')
+      //.setImage('https://imgur.com/9EDYw8D.png')
       
       const embed3 = new EmbedBuilder()
-      .setTitle('Head')
-      .setImage('https://imgur.com/9EDYw8D.png')
+      .setTitle('He@@d')
+      //.setImage('https://imgur.com/9EDYw8D.png')
 
     const pages = [
         embed1, embed2, embed3
@@ -33,7 +33,7 @@ module.exports = {
     fastSkip: false,
     disableButtons: true,
     pageTravel: true,
-    ephemeral: true,
+    ephemeral: false,
     /** Enable buttons pagination system only for member with ID: 123456789 */
     customFilter: (interaction) => {
         return interaction.member.user.id === '765911201296416829';
