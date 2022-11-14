@@ -13,6 +13,7 @@
     "discord.js": "^14.6.0",
     "dotenv": "^16.0.1",
     "mongoose": "^6.5.1",
-    "@devraelfreeze/discordjs-pagination": "^2.6.4"
+    "@devraelfreeze/discordjs-pagination": "^2.6.4",
+    "customizable-discordjs-pagination": "^2.0.1"
   }
 }
