@@ -1,6 +1,6 @@
 {
   "name": "Felysia",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "discord.js v14 bot",
   "main": "index.js",
   "scripts": {

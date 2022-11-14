@@ -29,10 +29,11 @@ module.exports = {
     interaction: interaction,
     embeds: pages, // Array of embeds objects
     author: interaction.member.user,
-    time: 40000, // 40 seconds
+    time: 180000, // 40 seconds
     fastSkip: false,
     disableButtons: true,
-    pageTravel: false,
+    pageTravel: true,
+    ephemeral: true,
     /** Enable buttons pagination system only for member with ID: 123456789 */
     customFilter: (interaction) => {
         return interaction.member.user.id === '765911201296416829';
@@ -40,13 +41,13 @@ module.exports = {
     buttons: [
         {
             value: TypesButtons.previous,
-            label: 'Previous Page',
+            label: 'Previous Image',
             style: StylesButton.Success,
-            emoji: '◀️'
+            emoji: '<:kiri:886854576303665202>'
         },
         {
             value: TypesButtons.next,
-            label: 'Next Page',
+            label: 'Next Image',
             style: StylesButton.Success,
             emoji: null // Disable emoji for this button
         }
