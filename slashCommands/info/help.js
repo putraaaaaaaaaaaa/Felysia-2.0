@@ -18,7 +18,7 @@ module.exports = {
       .addFields(
         {
           name: `About Me`,
-          value: `${client.user.username} is a program to make it easier for Digital Artists to find references. I'm gona generate reference you want, the embed will stay for 3, minutes`,
+          value: `${client.user.username} is a program to make it easier for Digital Artists to find references. I'm gona generate reference you want, the embed will stay for 2 minutes`,
         },
         {
           name: "Reference List",

@@ -100,9 +100,9 @@ module.exports = {
         embed1, embed2, embed3, embed4, embed5, embed6, embed7, embed8, embed9, embed10, embed11, embed12, embed13, embed14, embed15, embed16, embed17];
 
     const buttons = [{
-      label: 'Previous',
-      emoji: '<:kiri:886854576303665202>',
-      style: ButtonStyle.Secondary
+        label: 'Previous',
+        emoji: '<:kiri:886854576303665202>',
+        style: ButtonStyle.Secondary
     },
       {
         label: 'Next',
@@ -112,18 +112,18 @@ module.exports = {
     ]
 
     new Pagination()
-    .setCommand(interaction)
-    .setPages(pages)
-    .setButtons(buttons)
-    .setPaginationCollector({
-      timeout: 120000
-    })
-    .setSelectMenu({
-      enable: true
-    })
-    .setFooter({
-      enable: true
-    })
-    .send();
+      .setCommand(interaction)
+      .setPages(pages)
+      .setButtons(buttons)
+      .setPaginationCollector({
+        timeout: 120000
+      })
+      .setSelectMenu({
+        enable: true
+      })
+      .setFooter({
+        enable: true
+      })
+      .send();
   }
 }
