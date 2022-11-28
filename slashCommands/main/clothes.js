@@ -59,8 +59,28 @@ module.exports = {
       .setColor('Random')
       .setTitle('Uniform')
       .setImage('https://media.discordapp.net/attachments/950094766048178197/950650368042356766/FB_IMG_1646723070511.jpg')
+      
+      const embed12 = new EmbedBuilder()
+      .setTitle('Skirt?')
+      .setImage('https://i.imgur.com/PgKpLgA.jpg')
+      .setColor('Random')
+      
+      const embed13 = new EmbedBuilder()
+      .setTitle('cool')
+      .setImage('https://i.imgur.com/EbWPg4Z.jpg')
+      .setColor('Random')
+      
+      const embed14 = new EmbedBuilder()
+      .setTitle('Realistic')
+      .setImage('https://i.imgur.com/UbnFOy3.jpg')
+      .setColor('Random')
+      
+      const embed15 = new EmbedBuilder()
+      .setTitle('Maid')
+      .setImage('https://i.imgur.com/7tzZSdR.jpg')
+      .setColor('Random') 
 
-    const pages = [embed1, embed2, embed4, embed5, embed6, embed7, embed8, embed9, embed10]
+    const pages = [embed1, embed2, embed4, embed5, embed6, embed7, embed8, embed9, embed10, embed11, embed12, embed13, embed14, embed15]
 
 
     const buttons = [{

@@ -94,10 +94,61 @@ module.exports = {
       .setTitle('Ninja')
       .setImage('https://media.discordapp.net/attachments/950094766048178197/952148039915679764/FB_IMG_16470797004224068.jpg')
       .setColor('Random')
+      
+      const embed18 = new EmbedBuilder()
+      .setTitle('Eyes')
+      .setImage('https://i.imgur.com/jptjDUK.jpg')
+      .setColor('Random')
+      
+      const embed19 = new EmbedBuilder()
+      .setTitle('Eyes')
+      .setImage('https://i.imgur.com/Wo1kVe9.jpg')
+      .setColor('Random')
+      
+      const embed20 = new EmbedBuilder()
+      .setTitle('Eyes')
+      .setImage('https://i.imgur.com/wQVWn9b.jpg')
+      .setColor('Random')
+      
+      const embed21 = new EmbedBuilder()
+      .setTitle('Eye')
+      .setImage('https://i.imgur.com/8mHNzty.jpg')
+      .setColor('Random')
+      
+      const embed22 = new EmbedBuilder()
+      .setTitle('Celebrity Face')
+      .setImage('https://i.imgur.com/SSV9TTu.jpg')
+      .setColor('Random')
+      
+      const embed23 = new EmbedBuilder()
+      .setTitle('feet')
+      .setImage('https://i.imgur.com/qs3tP5u.jpg')
+      .setColor('Random')
+      
+      const embed24 = new EmbedBuilder()
+      .setTitle('feet')
+      .setImage('https://i.imgur.com/JiMAAME.jpg')
+      .setColor('Random')
+      
+      const embed25 = new EmbedBuilder()
+      .setTitle('triangle concept on feet')
+      .setImage('https://i.imgur.com/VBNEDp3.jpg')
+      .setColor('Random')
+      
+      const embed26 = new EmbedBuilder()
+      .setTitle('feet concept')
+      .setImage('https://i.imgur.com/Sxv16ed.jpg')
+      .setColor('Random')
+      
+      const embed27 = new EmbedBuilder()
+      .setTitle('basic shapes to feet')
+      .setImage('https://i.imgur.com/zLbAwmQ.jpg')
+      .setColor('Random')
 
 
     const pages = [
-        embed1, embed2, embed3, embed4, embed5, embed6, embed7, embed8, embed9, embed10, embed11, embed12, embed13, embed14, embed15, embed16, embed17];
+        embed1, embed2, embed3, embed4, embed5, embed6, embed7, embed8, embed9, embed10, embed11, embed12, embed13, embed14, embed15, embed16, embed17, embed18, embed19, embed20, embed21, embed22, embed23, embed24, embed25, embed26, embed27, 
+        ];
 
     const buttons = [{
         label: 'Previous',

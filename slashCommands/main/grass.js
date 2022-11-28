@@ -25,9 +25,34 @@ module.exports = {
       .setTitle('Materials')
       .setImage('https://media.discordapp.net/attachments/950094766048178197/950865018881187870/FB_IMG_16467736918112941.jpg')
       .setColor('Random')
+      
+      const embed4 = new EmbedBuilder()
+      .setTitle('Tree')
+      .setImage('https://i.imgur.com/kr6NFdR.jpg')
+      .setColor('Random')
+      
+      const embed5 = new EmbedBuilder()
+      .setTitle('Grass')
+      .setImage('https://i.imgur.com/NMQFzgh.jpg')
+      .setColor('Random')
+      
+      const embed6 = new EmbedBuilder()
+      .setTitle('Shadow Tree')
+      .setImage('https://i.imgur.com/7wyWxNC.jpg')
+      .setColor('Random')
+      
+      const embed7 = new EmbedBuilder()
+      .setTitle('colour pallet')
+      .setImage('https://i.imgur.com/2KEEtlf.jpg')
+      .setColor('Random')
+      
+      const embed8 = new EmbedBuilder()
+      .setTitle('dirt environment')
+      .setImage('https://i.imgur.com/Zvc6TUv.jpg')
+      .setColor('Random')
 
     const pages = [
-        embed1, embed2, embed3
+        embed1, embed2, embed3, embed4, embed5, embed6, embed7, embed8
         ]
 
 

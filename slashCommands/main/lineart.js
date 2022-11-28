@@ -39,8 +39,15 @@ module.exports = {
       .setTitle('Curve In gown')
       .setImage('https://media.discordapp.net/attachments/950094766048178197/950650643784302612/FB_IMG_1646723148815.jpg')
       .setColor('Random')
+      
+      const embed7 = new EmbedBuilder()
+      .setTitle('Eye')
+      .setImage('https://i.imgur.com/jr6Kql2.jpg')
+      .setColor('Random')
+      
+      
 
-    const pages = [embed1, embed2, embed3, embed4, embed5, embed6]
+    const pages = [embed1, embed2, embed3, embed4, embed5, embed6, embed7]
 
     const buttons = [{
       label: 'Previous',

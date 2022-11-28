@@ -54,8 +54,13 @@ module.exports = {
       .setTitle('Pose')
       .setImage('https://media.discordapp.net/attachments/950094766048178197/950650643541004308/FB_IMG_1646723157182.jpg')
       .setColor('Random')
+      
+      const embed10 = new EmbedBuilder()
+      .setTitle('Pose')
+      .setImage('https://i.imgur.com/jeyG7ZR.jpg')
+      .setColor('Random')
 
-    const pages = [embed1, embed2, embed3, embed4, embed5, embed6, embed7, embed8, embed9
+    const pages = [embed1, embed2, embed3, embed4, embed5, embed6, embed7, embed8, embed9, embed10
 ]
 
 

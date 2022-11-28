@@ -139,10 +139,25 @@ module.exports = {
       .setTitle('Eye Shading')
       .setImage('https://media.discordapp.net/attachments/950094766048178197/952148181070782524/FB_IMG_16470796174259091.jpg')
       .setColor('Random')
+      
+      const embed27 = new EmbedBuilder()
+      .setTitle('stomach')
+      .setImage('https://i.imgur.com/ni4CRg0.jpg')
+      .setColor('Random')
+      
+      const embed28 = new EmbedBuilder()
+      .setTitle('Dynamic Lightning')
+      .setImage('https://i.imgur.com/Tc06EZU.jpg')
+      .setColor('Random')
+      
+      const embed29 = new EmbedBuilder()
+      .setTitle('Dramatic Shading')
+      .setImage('https://i.imgur.com/EWqMUvZ.jpg')
+      .setColor('Random')
 
 
     const pages = [
-      embed1, embed2, embed3, embed4, embed5, embed6, embed7, embed8, embed9, embed10, embed11, embed12, embed13, embed14, embed15, embed16, embed17, embed18, embed19, embed20, embed21, embed22, embed23, embed24, embed25, embed26
+      embed1, embed2, embed3, embed4, embed5, embed6, embed7, embed8, embed9, embed10, embed11, embed12, embed13, embed14, embed15, embed16, embed17, embed18, embed19, embed20, embed21, embed22, embed23, embed24, embed25, embed26, embed27, embed28
       ]
 
 
