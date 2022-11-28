@@ -170,7 +170,7 @@ module.exports = {
         timeout: 120000
       })
       .setSelectMenu({
-        enable: true
+        enable: false
       })
       .setFooter({
         enable: true
